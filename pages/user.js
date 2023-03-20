@@ -1,6 +1,7 @@
 import Users from "../components/users";
 
 const User = ({ user }) => {
+    console.log(user);
     return (
         <div>
             <Users user={user} />
